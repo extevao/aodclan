@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="aodClan">
+<head>
+	<meta charset="utf-8">
+	<title>Soldado !!!</title>
+	<script src="js/angular.js"></script>
+    <script>
+		angular.module("aodClan", []);
+		angular.module("aodClan").controller("listaMembros", function($scope, $http){
+			$scope.olaMundo = "Olá Mundo!!!";
+
+			var carregaSoldado = function(){
+				$http.get("http://api.bf4stats.com/api/playerRankings?plat=pc&name=Extevao1&output=json")
+				.success(function(data){
+					console.log(data);
+				}).error(function(error){
+					console.log(error);
+				});
+			};
+			carregaSoldado();
+		});
+    </script>
+</head>
+<body ng-controller="listaMembros">
+
+	<div class="container">
+		<div class="row">
+			
+		
+		</div>
+	</div>
+</body>
+</html>
