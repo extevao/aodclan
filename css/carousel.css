@@ -1,21 +1,18 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
   padding-bottom: 40px;
   color: #f7f7f8;
 }
-
+main {
+  padding-top: 100px;
+}
+footer {
+  padding-right: 15px;
+  padding-left: 15px;
+  
+}
 .paragrafo {
   text-indent: 50px;
 }
-
-
-/* CUSTOMIZE THE NAVBAR
--------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -23,8 +20,6 @@ body {
   left: 0;
   z-index: 20;
 }
-
-/* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
@@ -37,28 +32,17 @@ body {
   width: auto;
 }
 
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
 .carousel {
   height: 1000px;
   margin-bottom: 60px;
-
-
 }
-/* Since positioning the image, we need to help out the caption */
 .carousel-caption, h1, p {
   z-index: 10;
-
 }
-
-/* Declare heights because of positioning of img element */
 .carousel .item {
   height: 1000px;
   background-color: #777;
-  opacity: 0.5;
+  opacity: 0.8;
   color: #f7f7f8;
 
 }
@@ -70,12 +54,6 @@ body {
   height: 1000px;
 
 }
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
@@ -87,16 +65,9 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-
-
-/* Featurettes
-------------------------- */
-
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 80px 0; 
 }
-
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -121,12 +92,10 @@ body {
     padding-left: 0;
   }
 
-  /* The navbar becomes detached from the top, so we round the corners */
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
 
-  /* Bump up size of carousel content */
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
@@ -157,19 +126,15 @@ body {
   width: auto;
   height: auto;
 }
-
 video {
 object-fit: contain;
 }
-
-
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: auto;
   margin-left: auto;
 }
-
 .masthead-nav > li {
   display: inline-block;
 }
@@ -209,7 +174,6 @@ object-fit: contain;
 .inner {
   padding: 30px;
 }
-
 .fundo-transparente {
   background-color : transparent !important;
   color: #f7f7f8; 
@@ -221,4 +185,11 @@ object-fit: contain;
   border-color: rgba(220,220,220, 0.1);
   box-shadow: 0px 0px 10px rgba(139, 0, 0, 0.7); 
   margin-top: 11px;
+}
+
+.lista {
+  font-size: 16pt;
+}
+.link {
+  color:  #f7f7f8;
 }
