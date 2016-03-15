@@ -10,6 +10,28 @@ footer {
   padding-left: 15px;
   
 }
+.soldado{
+  color: #f4d07d; 
+  font-family: Purista, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+}
+.battlelog {
+  display: block;
+  width: 95px;
+  height: 48px;
+  background: url(//d34ymitoc1pg7m.cloudfront.net/common/battlelog-logo-082bd9ee.png) 0 50% no-repeat;
+  background-size: contain;
+}
+.steam {
+    display: block;
+  width: 95px;
+  height: 48px;
+  background: url('http://steamcommunity-a.akamaihd.net/public/shared/images/header/globalheader_logo.png') 0 50% no-repeat;
+  background-size: contain;
+
+}
 .paragrafo {
   text-indent: 50px;
 }
