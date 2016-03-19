@@ -24,8 +24,25 @@ footer {
   background: url(//d34ymitoc1pg7m.cloudfront.net/common/battlelog-logo-082bd9ee.png) 0 50% no-repeat;
   background-size: contain;
 }
+.row {
+  background-color: rgba(0,0,0,0.45);
+  
+  border-radius: 5px;
+  padding: 50px;
+  margin: 5px;
+}
+.regras {
+   font-family: Purista, sans-serif;
+   font-size: 14pt;
+}
+.navbar-fixed-top {
+
+  background-color: rgba(0,0,0,.4) !important;
+  border-radius: 5px; 
+}
+
 .steam {
-    display: block;
+  display: block;
   width: 95px;
   height: 48px;
   background: url('http://steamcommunity-a.akamaihd.net/public/shared/images/header/globalheader_logo.png') 0 50% no-repeat;
