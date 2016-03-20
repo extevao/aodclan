@@ -1,6 +1,7 @@
 body {
   padding-bottom: 40px;
   color: #f7f7f8;
+  font-size: 12pt;
 }
 main {
   padding-top: 100px;
@@ -8,20 +9,31 @@ main {
 footer {
   padding-right: 15px;
   padding-left: 15px;
+
   
+}
+.lista-ordenada li{
+  padding-top: 8px;
+  text-align: justify;
 }
 .soldado{
   color: #f4d07d; 
   font-family: Purista, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
 }
 .battlelog {
   display: block;
   width: 95px;
   height: 48px;
-  background: url(//d34ymitoc1pg7m.cloudfront.net/common/battlelog-logo-082bd9ee.png) 0 50% no-repeat;
+  background: url('../img/battlelog-logo.png') 0 50% no-repeat;
+  background-size: contain;
+}
+.steam {
+  display: block;
+  width: 95px;
+  height: 48px;
+  background: url('../img/globalheader_logo.png') 0 50% no-repeat;
   background-size: contain;
 }
 .row {
@@ -41,14 +53,6 @@ footer {
   border-radius: 5px; 
 }
 
-.steam {
-  display: block;
-  width: 95px;
-  height: 48px;
-  background: url('http://steamcommunity-a.akamaihd.net/public/shared/images/header/globalheader_logo.png') 0 50% no-repeat;
-  background-size: contain;
-
-}
 .paragrafo {
   text-indent: 50px;
 }
