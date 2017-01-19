@@ -1,3 +1,2 @@
 # README #
-
-Arquivos do site do clan!
+Site do clan aod.
